@@ -12,6 +12,14 @@ export default function App() {
     <div>
       <TodoList />
 
+      <TodoList />
+
+      <TodoList />
+
+      <TodoList />
+
+      <TodoList />
+
       <Theme />
 
       <h2>{user?.name}</h2>
