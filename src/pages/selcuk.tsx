@@ -1,10 +1,17 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
+type standart = Record<string, number>;
+
 export default function Selcuk() {
   const { id } = useParams();
 
   const [page, setPage] = useState<number>(1);
+  const [mustafa, setMustafa] = useState<Record<string, number>>({
+    name: "mustafa",
+    age: 23,
+  } as unknown as standart);
+  const [selcuk, setSelcuk] = useState<string[]>([]);
 
   useEffect(() => {
     fetchApi(id).then((res) => console.log(res));
@@ -18,14 +25,15 @@ export default function Selcuk() {
     return () => {
       console.log("componentten ciktim");
     };
-  }, [page]);
+  }, [page, mustafa?.name]);
 
   async function newFetchApi(page: number = 1) {
     console.log(page);
   }
 
   function pageIncrease() {
-    setPage((prev) => prev + 1);
+    // setPage((prev) => prev + 1);
+    setMustafa((prev) => ({ ...prev, age: prev.age + 1 }));
   }
 
   return (
