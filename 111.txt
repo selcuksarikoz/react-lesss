@@ -36,10 +36,10 @@ Elbette, abine React öğretmek için adım adım, düz metin formatında bir li
    - Bileşenleri Yeniden Kullanma prensibi
 
 5. Adım 4: Props (Properties)
-   - Props'ların Amacı: Bileşenlere dışarıdan veri aktarmak
-   - Ebeveynden Çocuğa Props Geçirme örnekleri
-   - Fonksiyonel ve Sınıf Bileşenlerinde Props kullanımı
-   - `children` prop'unun ne işe yaradığını açıklama
+   && - Props'ların Amacı: Bileşenlere dışarıdan veri aktarmak
+   && - Ebeveynden Çocuğa Props Geçirme örnekleri
+   && - Fonksiyonel ve Sınıf Bileşenlerinde Props kullanımı
+   && - `children` prop'unun ne işe yaradığını açıklama
 
 6. Adım 5: State (Durum)
    - State'in Amacı: Bileşenlerin zaman içindeki değişen verilerini temsil etme
@@ -50,10 +50,10 @@ Elbette, abine React öğretmek için adım adım, düz metin formatında bir li
      - `useState` hook'unun tanıtımı ve temel kullanımı
 
 7. Adım 6: Olay Yönetimi (Event Handling)
-   - React'te olayların nasıl ele alındığı (onClick, onChange vb.)
-   - Olay dinleyicilerini JSX içinde nasıl tanımlayacağınızı gösterme
-   - Olay nesnesine (event object) nasıl erişileceğini anlatma
-   - Sınıf bileşenlerinde `this` bağlama (binding) yöntemleri
+   && - React'te olayların nasıl ele alındığı (onClick, onChange vb.)
+   && - Olay dinleyicilerini JSX içinde nasıl tanımlayacağınızı gösterme
+   && - Olay nesnesine (event object) nasıl erişileceğini anlatma
+   && - Sınıf bileşenlerinde `this` bağlama (binding) yöntemleri
 
 8. Adım 7: Koşullu Renderlama (Conditional Rendering)
     && - Form elemanlarıyla (input, textarea vb.) etkileşim örnekleri
@@ -64,7 +64,7 @@ Elbette, abine React öğretmek için adım adım, düz metin formatında bir li
     && - Form gönderme (`onSubmit`) olayını ele alma
     && Dizi verilerini ekrana listelemek için `.map()` fonksiyonunun kullanımı
     && React'te liste elemanları için `key` prop'unun önemi ve neden benzersiz olması gerektiği
-   - Belirli koşullara göre bileşenleri veya JSX elementlerini gösterme yöntemleri
+    && - Belirli koşullara göre bileşenleri veya JSX elementlerini gösterme yöntemleri
    - `if/else` ifadeleri, ternary operatör (`? :`) ve kısa devre değerlendirmesi (`&&`) örnekleri
 
 11. Adım 10: Bileşenler Arası İletişim
@@ -77,19 +77,19 @@ Elbette, abine React öğretmek için adım adım, düz metin formatında bir li
     && - `useState` hook'u ile state yönetimi
     && - `useEffect` hook'u ile yan etkileri yönetme (veri çekme, abonelikler vb.) ve bağımlılık dizisi
     && - `useContext` hook'una kısa giriş (global state yönetimi için)
-    - Kendi özel hook'larınızı (custom hooks) oluşturma prensibi
-    - `react-router-dom` kütüphanesinin kurulumu
+    && - Kendi özel hook'larınızı (custom hooks) oluşturma prensibi
+    && - `react-router-dom` kütüphanesinin kurulumu
 
 13. Adım 12: Yönlendirme (Routing) (React Router)
-    - Tek sayfalı uygulamalarda (SPA) farklı "sayfalar" arasında geçiş yapma ihtiyacı
-    - Temel router bileşenleri (`BrowserRouter`, `Route`, `Link`) kullanımı
-    - Parametreli rotalar ve iç içe rotalara kısa bir bakış (isteğe bağlı)
+    && - Tek sayfalı uygulamalarda (SPA) farklı "sayfalar" arasında geçiş yapma ihtiyacı
+    && - Temel router bileşenleri (`BrowserRouter`, `Route`, `Link`) kullanımı
+    && - Parametreli rotalar ve iç içe rotalara kısa bir bakış (isteğe bağlı)
 
 14. Adım 13: API İstekleri (Fetching Data)
     - Tarayıcının `fetch` API'si veya `axios` gibi bir kütüphane ile sunucudan veri çekme
     - Asenkron işlemler (Promises, async/await) hakkında temel bilgi
     - `useEffect` hook'unu kullanarak API isteklerini yönetme
-    - Yükleme (loading) ve hata (error) durumlarını ele alma prensipleri
+    && - Yükleme (loading) ve hata (error) durumlarını ele alma prensipleri
 
 15. Adım 14: State Yönetimi Kütüphaneleri (İsteğe Bağlı, Daha İleri Düzey)
     - Uygulama büyüdükçe daha karmaşık state yönetimi ihtiyaçları
