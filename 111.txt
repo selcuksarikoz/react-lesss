@@ -88,7 +88,7 @@ Elbette, abine React öğretmek için adım adım, düz metin formatında bir li
 14. Adım 13: API İstekleri (Fetching Data)
     - Tarayıcının `fetch` API'si veya `axios` gibi bir kütüphane ile sunucudan veri çekme
     - Asenkron işlemler (Promises, async/await) hakkında temel bilgi
-    - `useEffect` hook'unu kullanarak API isteklerini yönetme
+    && - `useEffect` hook'unu kullanarak API isteklerini yönetme
     && - Yükleme (loading) ve hata (error) durumlarını ele alma prensipleri
 
 15. Adım 14: State Yönetimi Kütüphaneleri (İsteğe Bağlı, Daha İleri Düzey)
